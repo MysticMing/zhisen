@@ -1,0 +1,142 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑";
+    font-size: 16px;
+    color:#000000;
+}
+#header{
+	width: 960px;
+	margin: 0 auto;
+	height: 70px;
+}
+#nav{
+	height: 50px;
+	min-width: 960px;
+	background: #47A3DA;
+	
+}
+#nav ul{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+#nav ul li{
+	float: left;
+	width: 160px;
+	text-align: center;
+	line-height: 50px;
+}
+#nav ul li a{
+	display: block;
+	color: #ffffff;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+#nav li a:hover{
+	background: #FFFFFF;
+	color: #0068B7;
+}
+#banner{
+    height: 250px;
+	background: url(../images1/02.jpg) no-repeat;
+}
+#main .wrapper{
+	
+	overflow: hidden;
+	
+}
+#news,#pro,#tal{
+	width:320px;
+	float:left;
+	font-size: 14px;
+	margin-top: 20px;
+	
+}
+#news h3,#pro h3,#tal h3{
+	border-left:5px solid #0068B7 ;
+	color: #666666;
+	/*注意首行缩进*/
+	text-indent: 1em;
+}
+.lanmu{
+	padding: 20px 0;
+	
+}
+.lanmu img{
+	display: block;
+}
+#news ul,#pro ul,#tal ul{
+	list-style-image: url(../images1/dot.jpg);
+	margin: 0 auto;
+	width: 90%;
+	
+}
+#news ul a,#pro ul a,#tal ul a{
+	color: #333333;
+	line-height: 20px;
+	
+}
+#news  ul a,#pro ul a,#tal ul a:hover{
+	/*连接字的颜色*/
+    color: red;
+}
+#anli,#zhaopin,#gongyi{
+	float:left;
+	width: 320px;
+}
+#anli h3,#zhaopin h3,#gongyi h3{
+	color: #0068B7;
+	
+}
+#anli ul{
+	background: url(../images1/icon1.png) no-repeat  left  center;
+}
+#zhaopin ul{
+	background: url(../images1/icon2.png) no-repeat  left center;
+}
+#gongyi ul{
+	background: url(../images1/icon3.png) no-repeat left center;
+}
+#anli ul a,#zhaopin ul a,#gongyi ul a{
+	color:black;
+}
+#anli ul a:hover,#zhaopin ul a:hover#gongyi ul a:hover{
+	color: red;
+}
+#anli ul li,#zhaopin ul li,#gongyi ul li{
+	width: 220px;
+	margin-left: 100px;
+}
+#hezuo h3{
+	margin: 20px 0;
+}
+
+#footer{
+	margin: 20px 0;
+	overflow:hidden;
+	background: #4B4B4B;
+}
+#footer .wrapper{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+#footer .wrapper dl{
+	width: 320px;
+	float: left;
+}
+#footer .wrapper dl dt{
+	font-size: 20px;
+}

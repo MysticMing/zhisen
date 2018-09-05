@@ -1,0 +1,217 @@
+@charset "utf-8";
+/*统一设置*/
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+ol,ul,li{
+	list-style-type: none;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#000;
+	
+}
+a{
+ 	color:#000;
+ 	text-decoration:none;
+}
+/*网页头部*/
+#header{
+	width: 960px;
+	height: 70px;
+	
+	margin: 0 auto;
+}
+#header img{
+	display: block;
+}
+/*主导航*/
+#nav{
+	height: 50px;
+	min-width: 960px;
+	background: #47A3DA;
+	
+}
+#nav ul{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+#nav ul li{
+	float: left;
+	width: 160px;
+	text-align: center;
+	line-height: 50px;
+}
+#nav ul li a{
+	display: block;
+	color: #ffffff;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+#nav ul li a:hover{
+	background: #e6f2fa;
+	color:#47A3DA;
+}
+/*高度导航*/
+#nav ul li a:active{
+	background: #0068b7;
+}
+/*主内容区*/
+#main{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	/*做好高塌陷准备*/
+	overflow: hidden;
+}
+/*左侧边栏*/
+#main #aside{
+	width: 220px;
+	float: left;
+	text-align: center;
+	color: #666;
+}
+/*公司简介*/
+#list h3{
+	background:#47A3DA ;
+	line-height: 35px;
+	color: #FFFFFF;
+	font-size: 16px;
+	
+}
+#list ul li a{
+	line-height:40px;
+	display: block;
+	font-size: 14px;
+	border-bottom: 1px dotted #000;
+	/*a标签单独设置颜色*/
+	color: #666;
+	
+	
+}
+a:hover{
+	background: #47A3DA;
+	color: #FFF;
+}
+
+/*全国服务支持*/
+#address{
+	background: #eee;
+	padding: 10px;
+	margin-top: 30px;
+	
+}
+#address h3{
+	font-size: 16px;
+	line-height: 35px;
+	border-bottom: 1px solid green;
+	
+}
+#address ul li{
+	font-size: 14px;
+	line-height: 30px;
+}
+.icon-tel{
+	position: relative;
+	left: 0px;
+	top: 3px;
+	
+}
+
+.icon-mxg{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	
+}
+
+/*右侧内容*/
+#contents{
+	width: 720px;
+	float: right;
+	font-size: 14px;
+	
+	
+}
+#contents h4{
+	line-height: 40px;
+	font-weight: normal;
+	border-bottom: 3px solid #47A3DA;
+}
+.sub_banner{
+	/*注意设左右内边距*/
+	padding: 5px 0;
+	border-bottom: 3px solid #47A3DA;
+}
+#contents .sub_banner img{
+	/*避免文字默认占有一小行*/
+	display: block;
+}
+#contents wenzhang{
+	color: #333;
+}
+
+
+#contents .wenzhang h1{
+	line-height: 60px;
+	text-align: center;
+}
+/*图片列表*/
+#box{
+	width: 580px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#box dl{
+	float: left;
+	margin: 20px;
+}
+
+#box dl img{
+	display: block;
+}
+#box dl dd{
+	width: 230px;
+	font-size: 14px;
+	border-bottom: 2px solid orange;
+	text-align: center;
+	color: #444444;
+	background: #ccc;
+	margin: 0 auto;
+	line-height: 30px;
+	line-height: 30px;
+	line-height: 30px;
+	
+}
+/*网页底部*/
+#footer{
+	padding: 20px;
+	background: #4b4b4b;
+	color:#fff;
+}
+
+#footer .wrapper{
+	width:960px;
+	margin:0 auto;
+	overflow: hidden;
+	
+}
+#footer .wrapper dl{
+	float:left;
+	width: 320px;
+	line-height: 20px;
+}
+#footer .wrapper dl dt{
+	font-weight: bold;
+	line-height: 20px;
+}
+
+
+
+
